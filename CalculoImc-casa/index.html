@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR" >
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="/script.js"></script>
+        <title>Calcule seu IMC</title>
+    </head>
+    <body>
+        <div id="formulario">
+                <h2>Calcule seu IMC</h2>
+                <form id="formularioImc">
+
+                    <label for="peso">Informe seu peso:</label>
+                    <input type="text" id="peso" required = "true">
+
+                    <label for="altura">Informe sua altura:</label>
+                    <input type="text" id="altura" required = "true">
+
+
+                    <button type="button" onclick="calcularImc()">Calcular</button>
+                    <button type="reset">Limpar</button>
+                </form>
+        </div>
+
+        <div id="textoResultado">
+                <p></p>
+        </div>
+
+    </body>
+</html>
